@@ -27,6 +27,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  inject:
+    path: ./vendor/inject.dart/package/inject
   flutter:
     sdk: flutter
 
@@ -35,7 +37,11 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  http:
+
 dev_dependencies:
+  inject_generator:
+    path: ./vendor/inject.dart/package/inject_generator
   flutter_test:
     sdk: flutter
 
